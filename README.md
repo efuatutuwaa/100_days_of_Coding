@@ -3,7 +3,7 @@
 Here I begin my #100daysofcode challenge. 
 Everyday for an hour, I work on projects using skills acquired from studying Python.
 
-Projects are as follows
+Projects are as follows :
 
 
 # Day One Band Name Generator
