@@ -10,4 +10,4 @@ net_earnings = gross_earnings - total_commission_amount
 final_net_earnings = "{:.2f}".format(net_earnings)
 
 print(f"Your commission on  GHC{final_gross_earning} is GHC {final_commission_amount}")
-print(f"You get to keep as your GHC {final_net_earnings} net earnings, after paying your commission.")
+print(f"You get to keep  GHC {final_net_earnings} as your net earnings, after paying your commission.")
