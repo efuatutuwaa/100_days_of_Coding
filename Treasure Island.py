@@ -29,11 +29,11 @@ print('''
 print("Welcome to Treasure Island")
 print("Your task is to find the missing treasure")
 
-choice_1 = input("You\'re at a crossroads, where would you go? Enter 'left' or 'right'\n")
+choice_1 = input("You\'re at a crossroads, where would you go? Type 'left' or 'right'\n").lower()
 if choice_1 == "left":
-    choice_2 = input("You\'ve come to a lake with an island in the middle. Type 'wait' to wait for a boat or 'swim' to swim across the lake\n")
+    choice_2 = input("You\'ve come to a lake with an island in the middle. Type 'wait' to wait for a boat or 'swim' to swim across the lake\n").lower()
     if choice_2 == "wait":
-        choice_3 = input("You got to the island unharmed. You come across three doors: one 'red', one 'blue' and one 'yellow'. Which one would you chooose?\n")
+        choice_3 = input("You got to the island unharmed. You come across three doors: one 'red', one 'blue' and one 'yellow'. Which one would you chooose?\n").lower()
         if choice_3 == "yellow":
             print("Congratulations, you found the treasure.")
         elif choice_3 == "red":
