@@ -44,3 +44,6 @@ It tells them the interpretation of their BMI based on the BMI value.
 - Above 35 they are clinically obese.
 The BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m)
 
+
+# Day Six : Treasure Island Game
+
